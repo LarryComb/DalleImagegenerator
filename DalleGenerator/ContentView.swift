@@ -14,7 +14,7 @@ final class ViewModel: ObservableObject{
     func setup(){
         let openai = OpenAI(Configuration(
             organization: "Personal",
-            apiKey: ""
+            apiKey: "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"
         ))
     }
     func generateImage(prompt: String) async -> UIImage? {
